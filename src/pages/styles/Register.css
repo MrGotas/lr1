@@ -1,0 +1,86 @@
+.register-container {
+    width: 700px; /* Сделал ширину такой же, как у окна входа */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Заголовок */
+.register-container h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    color: #333;
+    text-align: center;
+}
+
+/* Форма регистрации */
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Поля ввода */
+.register-form input {
+    width: 60%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+/* Кнопки */
+.register-form button {
+    width: 40%;
+    padding: 10px;
+    margin: 1px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Стили для кнопки "Зарегистрироваться" */
+.register-form .register-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.register-form .register-button:hover {
+    background-color: #218838;
+}
+
+/* Ошибка */
+.error-message {
+    color: #d30707;
+    font-size: 14px;
+    text-align: center;
+    min-height: 20px; /* Резервируем пространство для ошибки */
+}
+
+.back-button {
+    display: block;
+    margin: 10px auto;
+    background-color: #dc3545; /* Красный фон */
+    color: white; /* Белый текст */
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none; /* Убираем подчеркивание */
+    transition: background-color 0.3s ease; /* Плавный переход цвета */
+}
+
+.back-button:hover {
+    background-color: #a71d2a; /* Темно-красный фон при наведении */
+}
